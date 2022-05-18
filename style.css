@@ -1,0 +1,94 @@
+body {
+    background-image: url(../background-netflix.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+.navbar{
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+  }
+  .img-logo{
+    width: 14%;
+    color: #e50914;
+    width: 80px;
+  }
+  .btn-entrar{
+    background-color: #e50914;
+    color: #fff;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .texto-principal{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.1;
+  }
+  .titulo{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+  }
+  .titulo-principal{
+    font-size: 3.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .sub-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  .texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+  }
+  .email-container{
+    width: 30%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .email-container-input{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+    border-radius: 10px;
+  }
+  .btn-get-started{
+    cursor: pointer;
+    padding: 19px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.4em;
+    text-transform:none;
+    border-radius: 7px;
+  }
+  .btn-get-started:hover{
+    background-color: #ff0b18;
+  }
